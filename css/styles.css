@@ -15,6 +15,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   vertical-align: baseline;
+  scroll-behavior: smooth;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -201,7 +202,7 @@ body {
 
 /*******************Main(COVER)******************/
 .border-button, .cover__button {
-  width: 200px;
+  width: 250px;
   height: 60px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1196,6 +1197,22 @@ body {
 }
 @media screen and (max-width: 479px) {
   .footer__copy {
+    margin: 23px 0 0 0;
+  }
+}
+
+.footer__copy_developer {
+  font-size: 12px;
+  line-height: 175%;
+}
+@media screen and (max-width: 796px) {
+  .footer__copy_developer {
+    display: block;
+    margin: 31px 0 0 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footer__copy_developer {
     margin: 23px 0 0 0;
   }
 }
